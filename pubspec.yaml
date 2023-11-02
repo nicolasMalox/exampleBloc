@@ -1,0 +1,51 @@
+name: nicolas_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  google_sign_in: ^5.0.7
+  pin_code_fields: ^7.3.0
+  flutter_svg_provider: ^1.0.3
+  sms_autofill: ^2.0.0
+  dio: ^5.0.3
+  fluttertoast: ^8.0.8
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Overpass
+      fonts: 
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OverpassRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OverpassBold.ttf
+          weight: 700
+        - asset: assets/fonts/OverpassSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassExtraBold.ttf
+          weight: 800
+    - family: SF Pro Display
+      fonts: 
+        - asset: assets/fonts/SFProDisplayMedium.ttf
+          weight: 500
